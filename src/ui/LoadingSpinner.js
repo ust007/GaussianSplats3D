@@ -17,7 +17,7 @@ export class LoadingSpinner {
         this.container = container || document.body;
 
         this.spinnerContainerOuter = document.createElement('div');
-        this.spinnerContainerOuter.className = `spinnerOuterContainer${this.elementID}`;
+        this.spinnerContainerOuter.className = `new-spinnerOuterContainer${this.elementID}`;
         this.spinnerContainerOuter.style.display = 'none';
 
         this.spinnerContainerPrimary = document.createElement('div');
